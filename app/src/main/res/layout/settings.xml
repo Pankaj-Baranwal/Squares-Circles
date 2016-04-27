@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#Ffa0a8ef"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Settings"
+        android:id="@+id/textView"
+        android:textSize="@dimen/font_50"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/lilayout"
+    android:layout_below="@+id/ruli"
+    android:layout_marginTop="@dimen/margin_30"
+    android:layout_marginBottom="@dimen/margin_30"
+    android:layout_centerHorizontal="true"
+    >
+    <RelativeLayout
+        android:layout_width="@dimen/margin_250"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/rlst6">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_20"
+        android:text="@string/volume"
+        android:id="@+id/checkBox"
+        android:textSize="@dimen/font_40"
+         />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tutorial"
+        android:textSize="@dimen/font_40"
+        android:id="@+id/tutorials"
+        android:layout_below="@+id/checkBox"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignLeft="@+id/checkBox"
+        android:layout_alignStart="@+id/checkBox" />
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rlst6"
+    android:id="@+id/rellayout"
+    android:layout_marginTop="@dimen/margin_40"
+    android:layout_centerHorizontal="true"
+    >
+    <Button
+        android:layout_width="@dimen/margin_200"
+        android:layout_height="@dimen/margin_60"
+        android:text="@string/ccolor"
+        android:textSize="@dimen/font_30"
+        android:textColor="#000000"
+        android:background="@drawable/states"
+        android:id="@+id/button"
+         />
+
+    <Button
+        android:layout_width="@dimen/margin_200"
+        android:layout_height="@dimen/margin_60"
+        android:text="@string/aboutus"
+        android:textSize="@dimen/font_30"
+        android:id="@+id/button2"
+        android:textColor="#000000"
+        android:background="@drawable/states"
+        android:layout_toRightOf="@+id/button"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_toEndOf="@+id/button"
+         />
+</RelativeLayout>
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/ruli"
+    >
+    <SeekBar
+        android:layout_width="@dimen/margin_350"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:progress="50"
+        android:max="100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Slowest"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_alignLeft="@+id/seekBar"
+        android:layout_alignStart="@+id/seekBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Fastest"
+        android:layout_marginTop="@dimen/margin_5"
+        android:id="@+id/textView21"
+        android:layout_alignTop="@+id/textView20"
+        android:layout_alignRight="@+id/seekBar"
+        android:layout_alignEnd="@+id/seekBar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50%"
+        android:textColor="#ff000000"
+        android:id="@+id/progress"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/seekBar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How fast Android moves"
+        android:id="@+id/textView22"
+        android:textSize="@dimen/font_25"
+        android:saveEnabled="true"
+        android:layout_below="@+id/progress"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+    </RelativeLayout>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_120"
+        android:id="@+id/backset"
+        android:background="@drawable/back_img"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:clickable="true"
+        android:onClick="ponClick"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/back" />
+</RelativeLayout>

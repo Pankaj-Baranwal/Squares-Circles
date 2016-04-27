@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF44FFaa"
+    >
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:text="3x3"
+        android:textSize="@dimen/font_20"
+        android:id="@+id/button33"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/states"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_toLeftOf="@+id/button34"
+        android:layout_toStartOf="@+id/button34"/>
+
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="3x4"
+        android:textSize="@dimen/font_20"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:background="@drawable/states"
+        android:id="@+id/button34"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/rL6"
+        android:layout_toStartOf="@+id/rL6"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rL6"
+        android:layout_centerHorizontal="true">
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:text="4x4"
+        android:textSize="@dimen/font_20"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/button44"
+        android:background="@drawable/states"
+        android:layout_alignParentTop="true"
+         />
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button44"
+        android:background="@drawable/states"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="4x5"
+        android:textSize="@dimen/font_20"
+        android:id="@+id/button45"
+        android:layout_alignLeft="@+id/button44"
+        android:layout_alignRight="@+id/button44"
+        />
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:text="7x7"
+        android:textSize="@dimen/font_20"
+        android:background="@drawable/states"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/button77"
+        android:layout_below="@+id/button45"
+        android:layout_alignLeft="@+id/button44"
+        android:layout_alignRight="@+id/button44"
+         />
+    </RelativeLayout>
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:text="5x6"
+        android:textSize="@dimen/font_20"
+        android:background="@drawable/states"
+        android:id="@+id/button56"
+        android:layout_below="@+id/button34"
+        android:layout_toRightOf="@+id/button55"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_toEndOf="@+id/button55" />
+
+
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:background="@drawable/states"
+        android:text="5x5"
+        android:textSize="@dimen/font_20"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:id="@+id/button55"
+        android:layout_alignTop="@+id/button56"
+        android:layout_toRightOf="@+id/rL6"
+        android:layout_toEndOf="@+id/rL6" />
+
+
+
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:text="6x6"
+        android:textSize="@dimen/font_20"
+        android:background="@drawable/states"
+        android:id="@+id/button66"
+        android:layout_below="@+id/button56"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_toLeftOf="@+id/button67"
+        android:layout_toStartOf="@+id/button67"
+         />
+
+    <Button
+        android:layout_width="@dimen/margin_80"
+        android:layout_height="wrap_content"
+        android:text="6x7"
+        android:textSize="@dimen/font_20"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:id="@+id/button67"
+        android:background="@drawable/states"
+        android:layout_alignTop="@+id/button66"
+        android:layout_toLeftOf="@+id/rL6"
+        android:layout_toStartOf="@+id/rL6" />
+
+    <Button
+        android:layout_width="@dimen/margin_400"
+        android:layout_height="@dimen/margin_100"
+        android:text="8x8"
+        android:textSize="@dimen/font_50"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/states"
+        android:id="@+id/button88"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="@dimen/margin_30"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cross this level to have a chance at winning $10!!"
+        android:textSize="@dimen/font_25"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/button88"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_150"
+        android:text=""
+        android:textSize="@dimen/font_50"
+        android:id="@+id/textView18"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/rL6"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:clickable="true"
+        android:onClick="pomClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backsub"
+        android:background="@drawable/back_img"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Back" />
+
+</RelativeLayout>

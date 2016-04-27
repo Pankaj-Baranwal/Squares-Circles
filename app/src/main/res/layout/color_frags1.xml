@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rllst1">
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:background="#ff224040"
+            android:id="@+id/one" />
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_toRightOf="@+id/one"
+            android:layout_toEndOf="@+id/one"
+            android:background="#ff847034"
+            android:id="@+id/two"
+            />
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_toRightOf="@+id/two"
+            android:layout_toEndOf="@+id/two"
+            android:background="#ff5ab78d"
+            android:id="@+id/three" />
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_toRightOf="@+id/three"
+            android:layout_toEndOf="@+id/three"
+            android:background="#ff886bb8"
+            android:id="@+id/four" />
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_toRightOf="@+id/four"
+            android:layout_toEndOf="@+id/four"
+            android:background="#ff7f2fd4"
+            android:id="@+id/five" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rllst1"
+        android:id="@+id/rllst2">
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:background="#ff606f7f"
+            android:id="@+id/six" />
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_toRightOf="@+id/six"
+            android:layout_toEndOf="@+id/six"
+            android:background="#ffb64e80"
+            android:id="@+id/seven" />
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_toRightOf="@+id/seven"
+            android:layout_toEndOf="@+id/seven"
+            android:background="#ff64394d"
+            android:id="@+id/eight" />
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_toRightOf="@+id/eight"
+            android:layout_toEndOf="@+id/eight"
+            android:background="#ff1f8df0"
+            android:id="@+id/nine" />
+        <Button
+            android:layout_width="@dimen/margin_100"
+            android:layout_height="@dimen/margin_100"
+            android:layout_toRightOf="@+id/nine"
+            android:layout_toEndOf="@+id/nine"
+            android:background="#1f40a5"
+            android:id="@+id/ten" />
+    </RelativeLayout>
+</RelativeLayout>

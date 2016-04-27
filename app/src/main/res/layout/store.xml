@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFe4cdb9" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Table d'hote"
+        android:textSize="@dimen/font_60"
+        android:id="@+id/tvst1"
+        android:layout_alignParentTop="true"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="@dimen/margin_350"
+        android:layout_height="wrap_content"
+        android:text="BUY FULL VERSION"
+        android:textColor="#FFFFFFFF"
+        android:textSize="@dimen/font_30"
+        android:background="@drawable/states1"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/button30"
+        android:layout_below="@+id/tvst1"
+        android:layout_centerHorizontal="true"
+         />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button30"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rlst1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00000"
+            android:textSize="@dimen/font_40"
+            android:id="@+id/tvst2"
+            android:gravity="end"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus"
+            android:textSize="@dimen/font_25"
+            android:background="@drawable/states"
+            android:id="@+id/btst1"
+            android:layout_toRightOf="@+id/tvst2"
+            android:layout_toEndOf="@+id/tvst2"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlst1"
+        android:id="@+id/main_screen"
+        android:layout_centerHorizontal="true"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_20">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rlst2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra Move"
+            android:textSize="@dimen/font_30"
+            android:id="@+id/tvst3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/margin_50" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:background="@drawable/button_circular"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/ivst1"
+            android:layout_below="@+id/tvst3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+        <TextView
+            android:layout_width="@dimen/margin_350"
+            android:layout_height="wrap_content"
+            android:text="200 \nMove 2 times consecutively!"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/tvst4"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_below="@+id/tvst3"
+            android:layout_toRightOf="@+id/ivst1"
+            android:layout_toEndOf="@+id/ivst1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/btst2"
+            android:background="@drawable/states"
+            android:layout_alignBottom="@+id/tvst4"
+            android:layout_toRightOf="@+id/tvst4"
+            android:layout_toEndOf="@+id/tvst4" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rlst2"
+        android:id="@+id/rlst3"
+        android:layout_marginTop="@dimen/margin_20">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timed Fuse"
+            android:textSize="@dimen/font_30"
+            android:id="@+id/tvst5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivst2"
+            android:text="0"
+            android:background="@drawable/button_circular"
+            android:textSize="@dimen/font_25"
+            android:layout_below="@+id/tvst5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+        <TextView
+            android:layout_width="@dimen/margin_350"
+            android:layout_height="wrap_content"
+            android:text="200 \nTimer increases by 15 seconds"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/tvst6"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_below="@+id/tvst5"
+            android:layout_toRightOf="@+id/ivst2"
+            android:layout_toEndOf="@+id/ivst2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/btst3"
+            android:background="@drawable/states"
+            android:layout_alignBottom="@+id/tvst6"
+            android:layout_toRightOf="@+id/tvst6"
+            android:layout_toEndOf="@+id/tvst6" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rlst3"
+        android:id="@+id/rlst4"
+        android:layout_marginTop="@dimen/margin_20">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wise Greed"
+            android:textSize="@dimen/font_30"
+            android:id="@+id/tvst7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivst3"
+            android:text="0"
+            android:background="@drawable/button_circular"
+            android:textSize="@dimen/font_25"
+            android:layout_below="@+id/tvst7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+        <TextView
+            android:layout_width="@dimen/margin_350"
+            android:layout_height="wrap_content"
+            android:text="500 \n 2X points for the next game"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/tvst8"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_below="@+id/tvst7"
+            android:layout_toRightOf="@+id/ivst3"
+            android:layout_toEndOf="@+id/ivst3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/btst4"
+            android:background="@drawable/states"
+            android:layout_alignBottom="@+id/tvst8"
+            android:layout_toRightOf="@+id/tvst8"
+            android:layout_toEndOf="@+id/tvst8" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rlst4"
+        android:id="@+id/rlst5"
+        android:layout_marginTop="@dimen/margin_20">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zero Taxes"
+            android:textSize="@dimen/font_30"
+            android:id="@+id/tvst9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivst4"
+            android:text="0"
+            android:background="@drawable/button_circular"
+            android:textSize="@dimen/font_25"
+            android:layout_below="@+id/tvst9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"/>
+
+        <TextView
+            android:layout_width="@dimen/margin_350"
+            android:layout_height="wrap_content"
+            android:text="1000 \nNext 4 purchases cost half!"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/tvst10"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:layout_below="@+id/tvst9"
+            android:layout_toRightOf="@+id/ivst4"
+            android:layout_toEndOf="@+id/ivst4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus"
+            android:textSize="@dimen/font_25"
+            android:id="@+id/btst5"
+            android:background="@drawable/states"
+            android:layout_alignBottom="@+id/tvst10"
+            android:layout_toRightOf="@+id/tvst10"
+            android:layout_toEndOf="@+id/tvst10" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backstore"
+        android:background="@drawable/back_img"
+        android:layout_below="@+id/rlst5"
+        android:focusable="true"
+        android:clickable="true"
+        android:onClick="pomClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Back" />
+        </RelativeLayout>
+    </ScrollView>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@id/screen_wait"
+        android:src="@drawable/wait"
+        android:visibility="gone"/>
+</RelativeLayout>

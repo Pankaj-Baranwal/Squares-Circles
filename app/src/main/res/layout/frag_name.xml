@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#FFd6e8f6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Decide Names"
+        android:layout_marginTop="@dimen/margin_20"
+        android:textSize="@dimen/font_40"
+        android:id="@+id/heading"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rllll1"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="@dimen/margin_40"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="@dimen/font_30"
+        android:textColor="#ff000000"
+        android:id="@+id/name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="User1"
+        android:textSize="@dimen/font_25"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginEnd="@dimen/margin_20"
+        android:ems="8"
+        android:id="@+id/editText"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_marginStart="@dimen/margin_30"
+        android:layout_toRightOf="@+id/name"
+        android:layout_toEndOf="@+id/name"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rllll2"
+        android:layout_below="@+id/rllll1"
+        android:layout_marginTop="@dimen/margin_40"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="@dimen/font_30"
+            android:textColor="#ff000000"
+            android:id="@+id/name1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="User2"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:textSize="@dimen/font_25"
+            android:ems="8"
+            android:id="@+id/editText1"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginStart="@dimen/margin_30"
+            android:layout_toRightOf="@+id/name1"
+            android:layout_toEndOf="@+id/name1"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rllll3"
+        android:layout_below="@+id/rllll2"
+        android:layout_marginTop="@dimen/margin_40"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="@dimen/font_30"
+            android:textColor="#ff000000"
+            android:id="@+id/name3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="User3"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:textSize="@dimen/font_25"
+            android:ems="8"
+            android:id="@+id/editText2"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginStart="@dimen/margin_30"
+            android:layout_toRightOf="@+id/name3"
+            android:layout_toEndOf="@+id/name3"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rllll4"
+        android:layout_below="@+id/rllll3"
+        android:layout_marginTop="@dimen/margin_40"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginStart="@dimen/margin_20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="@dimen/font_30"
+            android:textColor="#ff000000"
+            android:id="@+id/name4" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="User4"
+            android:layout_marginRight="@dimen/margin_20"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:textSize="@dimen/font_25"
+            android:ems="8"
+            android:id="@+id/editText3"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginStart="@dimen/margin_30"
+            android:layout_toRightOf="@+id/name4"
+            android:layout_toEndOf="@+id/name4"/>
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rllll4"
+    android:layout_marginTop="@dimen/margin_40"
+    android:layout_centerHorizontal="true">
+    <Button
+        android:layout_width="@dimen/margin_100"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="@dimen/font_15"
+        android:id="@+id/ok"
+         />
+    <Button
+        android:layout_width="@dimen/margin_100"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textSize="@dimen/font_15"
+        android:layout_marginLeft="@dimen/margin_50"
+        android:layout_marginStart="@dimen/margin_50"
+        android:layout_toRightOf="@+id/ok"
+        android:layout_toEndOf="@+id/ok"
+        android:id="@+id/cancel"
+        />
+</RelativeLayout>
+        </RelativeLayout>
+</RelativeLayout>

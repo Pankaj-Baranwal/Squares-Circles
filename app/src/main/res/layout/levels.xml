@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFAF1F1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Options"
+        android:textColor="#000000"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/font_60"
+        android:id="@+id/game_options"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_40"
+        android:text="EASY"
+        android:background="@drawable/states"
+        android:id="@+id/easy"
+        android:layout_below="@+id/game_options"
+        android:textColor="#000000"
+        android:layout_marginTop="@dimen/margin_30"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play against one opponent"
+        android:textColor="#FF000000"
+        android:id="@+id/text_easy"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/easy"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_40"
+        android:text="MEDIUM"
+        android:id="@+id/medium"
+        android:background="@drawable/states"
+        android:textColor="#000000"
+        android:layout_marginTop="@dimen/margin_30"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/text_easy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play against two opponents"
+        android:textColor="#FF000000"
+        android:id="@+id/text_medium"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/medium"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_40"
+        android:text="HARD"
+        android:id="@+id/hard"
+        android:background="@drawable/states"
+        android:textColor="#000000"
+        android:layout_marginTop="@dimen/margin_30"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/text_medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play against three opponents"
+        android:textColor="#FF000000"
+        android:id="@+id/text_hard"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/hard"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_40"
+        android:text="LEVELS"
+        android:id="@+id/levels"
+        android:background="@drawable/states"
+        android:textColor="#000000"
+        android:layout_marginTop="@dimen/margin_30"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/text_hard" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play on the selected gridline"
+        android:textColor="#FF000000"
+        android:id="@+id/text_levels"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/levels"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coins: "
+        android:textColor="#FF000000"
+        android:textSize="@dimen/font_40"
+        android:id="@+id/coins"
+        android:layout_marginLeft="@dimen/margin_30"
+        android:layout_marginStart="@dimen/margin_30"
+        android:layout_marginBottom="@dimen/margin_30"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

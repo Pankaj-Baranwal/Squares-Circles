@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_20">15dp</dimen>
+    <dimen name="margin_30">20dp</dimen>
+    <dimen name="margin_40">25dp</dimen>
+    <dimen name="margin_50">30dp</dimen>
+    <dimen name="margins_50">20dp</dimen>
+    <dimen name="margin_60">35dp</dimen>
+    <dimen name="margin_80">45dp</dimen>
+    <dimen name="margin_100">55dp</dimen>
+    <dimen name="margin_120">65dp</dimen>
+    <dimen name="margin_150">75dp</dimen>
+    <dimen name="margin_180">87dp</dimen>
+    <dimen name="margin_200">95dp</dimen>
+    <dimen name="margin_250">115dp</dimen>
+    <dimen name="margin_300">130dp</dimen>
+    <dimen name="margin_350">155dp</dimen>
+    <dimen name="margin_400">175dp</dimen>
+    <dimen name="margin_450">190dp</dimen>
+    <dimen name="margin_500">240dp</dimen>
+    <dimen name="font_15">8sp</dimen>
+    <dimen name="font_20">10sp</dimen>
+    <dimen name="font_25">12sp</dimen>
+    <dimen name="font_30">14sp</dimen>
+    <dimen name="font_40">18sp</dimen>
+    <dimen name="font_45">20sp</dimen>
+    <dimen name="font_50">22sp</dimen>
+    <dimen name="font_60">26sp</dimen>
+    <dimen name="font_90">38sp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+</resources>

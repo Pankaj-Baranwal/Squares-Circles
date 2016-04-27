@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_30"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rllst2">
+    </FrameLayout>
+    <RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rllst2"
+    android:id="@+id/rG1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circles"
+        android:textSize="@dimen/font_40"
+        android:onClick="onRBClicked"
+        android:checked="true"
+        android:id="@+id/radioButton"
+         />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRBClicked"
+        android:text="Lines"
+        android:textSize="@dimen/font_40"
+        android:id="@+id/radioButton2" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_40"
+        android:onClick="onRBClicked"
+        android:text="User's Squares"
+        android:id="@+id/radioButton3" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android's Squares"
+        android:textSize="@dimen/font_40"
+        android:onClick="onRBClicked"
+        android:id="@+id/radioButton4" />
+
+</RadioGroup>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backcome"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="@drawable/back_img"/>
+</RelativeLayout>
